@@ -3,6 +3,7 @@ A = input()
 B = input()
 H = input()
 
+
 def arithematic_func(first_number, second_number, operations):
     operations_list = ['+', '-', '/', '*', 'mod', 'pow', 'div']
     first_number = float(first_number)
@@ -24,5 +25,7 @@ def arithematic_func(first_number, second_number, operations):
             elif operations == '/':
                 return first_number / second_number
             elif operations == '*':
-                return first_number * second_number  
+                return first_number * second_number
+
+
 print(arithematic_func(A, B, H))
